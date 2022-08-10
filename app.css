@@ -1,42 +1,87 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1B3B6F;
-    color: #065A82;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #023047;
+
 }
 
-nav {
-    background-color: #065A82;
-    padding-top: 35px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+h1 {
+    font-weight: 00;
+    font-size: medium;
+
 }
 
-.home {
-    color: #21295C;
-    font-weight: 600;
-    font-size: large;
-    padding-left: 1%;
+
+/* Program table */
+.python,
+.java,
+div {
+    transform: translateY(5.25em);
+    border: #ffb703 4px solid;
+    height: 300px;
+    width: 36%;
+
 }
 
-.links a {
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div h2 {
+    background-color: #ffb703;
+    text-align: center;
+}
+
+.container table {
+    transform: translateY(2.25em);
+    margin: auto;
+}
+
+.container th {
+    color: #ffb703;
+    transition: all 0.3s ease 0s;
+}
+
+.container td a:hover {
+    color: #ffb703;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffb703;
+
+}
+
+.container td:hover {
+    transform: translateY(-0.25em);
+}
+
+
+/* Navigation bar */
+li,
+a,
+button,
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    color: oldlace;
     text-decoration: none;
-    color: #21295C;
-
 }
 
-.links {
-    padding-left: 75%;
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-table {
-    color: #065A82;
+button {
+    padding: 9px 25px;
+    background-color: #ffb703;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
 }
 
-table tr td a {
-    text-decoration: none;
-    color: #9EB3C2;
-}
-
-table tr td a:hover {
-    color: #1C7293;
+button:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em #ffb703;
 }

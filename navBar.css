@@ -1,0 +1,24 @@
+.logo {
+    margin-right: auto;
+}
+
+.navlinks {
+    list-style: none;
+
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffb703;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffb703;
+
+}
+
+.navlinks li:hover {
+    transform: translateY(-0.25em);
+}
